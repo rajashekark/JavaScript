@@ -15,11 +15,20 @@
 <body>
   <p>Welcome to JAVASCRIPT  </p>
 
-  x= <input type="text"><br>
-  y= <input type="text">
+  x= <input type="text" id="text1"><br>
+  y= <input type="text" id = "text2"><br>
+  <button type="button"  onclick="add()">Add</button> 
+  <button type="button"  onclick="subtract()">Subtract</button> 
+  <button type="button"  onclick="multiply()">Multiply</button> 
+  <button type="button"  onclick="division()">Division</button> <br>
 
-  <button type="button"  onclick="clickMe()">click me!</button>
-  
+  result = <input type="text" id="text3" readonly><br>
+
+
+  <button type="button" onclick="document.getElementById('demo').innerHTML=Date()">click me to display date</button>
+
+  <p id="add"></p>
+  <p id="demo"></p>
 </body>
 <script src="scripts/scripts.js"></script>
 </html>
